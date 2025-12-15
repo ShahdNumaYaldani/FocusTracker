@@ -199,7 +199,7 @@ export default function TimerScreen() {
           onPress={() => setMinutes(DEFAULT_MINUTES)}
           disabled={isRunning}
           style={{
-            padding: 10,
+            padding: 16,
             borderRadius: 10,
             backgroundColor: isRunning ? "#ccc" : "#999",
           }}
