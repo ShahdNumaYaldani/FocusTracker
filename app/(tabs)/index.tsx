@@ -85,7 +85,6 @@ export default function TimerScreen() {
         setDistractions(newDistractions);
         setIsRunning(false);
   
-        // احفظي بالرقم الجديد (مو القديم)
         saveSession(secondsLeft, newDistractions);
       }
     });
