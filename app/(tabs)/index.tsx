@@ -189,7 +189,7 @@ export default function TimerScreen() {
           style={{
             padding: 10,
             borderRadius: 10,
-            backgroundColor: isRunning ? "#ccc" : "#111",
+            backgroundColor: isRunning ? "#ccc" : "#222",
           }}
         >
           <Text style={{ color: "white", fontWeight: "700" }}>+5</Text>
@@ -201,7 +201,7 @@ export default function TimerScreen() {
           style={{
             padding: 10,
             borderRadius: 10,
-            backgroundColor: isRunning ? "#ccc" : "#666",
+            backgroundColor: isRunning ? "#ccc" : "#999",
           }}
         >
           <Text style={{ color: "white", fontWeight: "700" }}>25</Text>
