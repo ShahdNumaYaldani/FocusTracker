@@ -45,7 +45,6 @@ export default function ReportsScreen() {
   const load = async () => {
     const raw = await AsyncStorage.getItem("sessions");
     const list: Session[] = raw ? JSON.parse(raw) : [];
-    // الأحدث فوق
     setSessions(list.slice().reverse());
   };
 
@@ -151,6 +150,10 @@ export default function ReportsScreen() {
           }}
         >
           <Text style={{ fontSize: 25, fontWeight: "700" }}>Reports</Text>
+          <Text style={{ color: "#666", marginBottom: 8 }}>
+              Focus statistics based on saved sessions
+          </Text>
+
 
           <View style={{ flexDirection: "row", gap: 10 }}>
             <Pressable
@@ -269,7 +272,6 @@ export default function ReportsScreen() {
 )}
 
 
-          {/* Sessions list */}
           <Text style={{ fontSize: 16, fontWeight: "700", marginBottom: 8 }}>
             Sessions
           </Text>
