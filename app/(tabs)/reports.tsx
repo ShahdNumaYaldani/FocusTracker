@@ -148,7 +148,7 @@ export default function ReportsScreen() {
             gap: 10,
           }}
         >
-          <Text style={{ fontSize: 22, fontWeight: "700" }}>Reports</Text>
+          <Text style={{ fontSize: 25, fontWeight: "700" }}>Reports</Text>
 
           <View style={{ flexDirection: "row", gap: 10 }}>
             <Pressable
