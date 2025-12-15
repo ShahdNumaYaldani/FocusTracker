@@ -28,3 +28,5 @@ Projede kullanılan teknolojiler:
 Uygulamayı çalıştırmak için gerekli paketler yüklendikten sonra
 `npx expo start` komutu çalıştırılır ve uygulama Expo Go üzerinden test edilir.
 Uygulama Expo Go kullanılarak gerçek cihaz üzerinde test edilmiştir.
+## Notlar
+Bu proje, üniversite dersi kapsamında bireysel olarak geliştirilmiştir.
