@@ -212,7 +212,7 @@ export default function TimerScreen() {
 
       <View style={{ flexDirection: "row", gap: 12 }}>
         <Button
-          label="Start"
+          label="Başlat"
           onPress={() => {
             sessionSavedRef.current = false;
             setIsRunning(true);
@@ -220,7 +220,7 @@ export default function TimerScreen() {
           disabled={isRunning || secondsLeft === 0}
         />
         <Button
-          label="Pause"
+          label="Duraklat"
           onPress={() => {
             setIsRunning(false);
             saveSession(secondsLeft); 
@@ -228,7 +228,7 @@ export default function TimerScreen() {
           disabled={!isRunning}
         />
         <Button
-          label="Reset"
+          label="Sıfırla"
           onPress={() => {
             setIsRunning(false);
             setSecondsLeft(minutes * 60);
